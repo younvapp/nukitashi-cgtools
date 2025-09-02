@@ -35,8 +35,8 @@ def main():
         "-d",
         "--dir",
         type=str,
-        default="",
-        help="要搜索的目录(默认当前)",
+        default="merged",
+        help="要搜索的目录(默认 merged)",
     )
     args = parser.parse_args()
     search_dir = args.dir
